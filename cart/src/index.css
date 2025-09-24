@@ -1,0 +1,22 @@
+/* Reset default browser margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;  /* centers the main content horizontally */
+}
+
+/* Main container */
+#root {
+  width: 100%;
+  max-width: 800px;  /* limit the width */
+  padding: 20px;
+}
